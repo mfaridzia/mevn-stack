@@ -20,6 +20,7 @@
 /* eslint-disable */
 
 import PostsService from '@/services/PostsService'
+
 export default {
   name: 'EditPost',
   data() {

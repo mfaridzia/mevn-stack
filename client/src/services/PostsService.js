@@ -5,6 +5,7 @@ import Api from '@/services/Api'
 
 export default {
     
+    // contoh hasil url: localhost:5000/posts
     fetchPosts() {
         return Api().get('posts')
     },

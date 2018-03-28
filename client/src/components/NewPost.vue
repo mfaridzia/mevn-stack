@@ -20,6 +20,7 @@
 /* eslint-disable */
 
 import PostsService from '@/services/PostsService'
+
 export default {
   name: 'NewPost',
   data () {
@@ -39,6 +40,7 @@ export default {
   }
 }
 </script>
+
 <style type="text/css">
 .form input, .form textarea {
   width: 500px;
